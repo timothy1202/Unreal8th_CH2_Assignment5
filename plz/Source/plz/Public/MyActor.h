@@ -26,8 +26,8 @@ public:
     bool bIsFinished = false;
     float Timer = 0.0f;
 
-    float TotalDistance = 0.0f;    // 총 이동 거리 누적
-    int32 EventCount = 0;          // 이벤트 발생 횟수 누적
-    FVector PreviousLocation;      // 거리 계산을 위한 이전 위치 저장
+    float TotalDistance = 0.0f;
+    int32 EventCount = 0;      
+    FVector PreviousLocation;  
 
 };

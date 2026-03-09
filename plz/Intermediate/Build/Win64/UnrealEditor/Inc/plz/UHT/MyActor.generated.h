@@ -14,7 +14,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define PLZ_MyActor_generated_h
 
-#define FID_UnrealEngine_plz_Source_plz_Public_MyActor_h_10_INCLASS_NO_PURE_DECLS \
+#define FID_GitStudy_Unreal8th_CH2_Assignment5_plz_Source_plz_Public_MyActor_h_10_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMyActor(); \
 	friend struct Z_Construct_UClass_AMyActor_Statics; \
@@ -23,7 +23,7 @@ public: \
 	DECLARE_SERIALIZER(AMyActor)
 
 
-#define FID_UnrealEngine_plz_Source_plz_Public_MyActor_h_10_ENHANCED_CONSTRUCTORS \
+#define FID_GitStudy_Unreal8th_CH2_Assignment5_plz_Source_plz_Public_MyActor_h_10_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	AMyActor(AMyActor&&); \
@@ -35,12 +35,12 @@ public: \
 	NO_API virtual ~AMyActor();
 
 
-#define FID_UnrealEngine_plz_Source_plz_Public_MyActor_h_7_PROLOG
-#define FID_UnrealEngine_plz_Source_plz_Public_MyActor_h_10_GENERATED_BODY \
+#define FID_GitStudy_Unreal8th_CH2_Assignment5_plz_Source_plz_Public_MyActor_h_7_PROLOG
+#define FID_GitStudy_Unreal8th_CH2_Assignment5_plz_Source_plz_Public_MyActor_h_10_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_UnrealEngine_plz_Source_plz_Public_MyActor_h_10_INCLASS_NO_PURE_DECLS \
-	FID_UnrealEngine_plz_Source_plz_Public_MyActor_h_10_ENHANCED_CONSTRUCTORS \
+	FID_GitStudy_Unreal8th_CH2_Assignment5_plz_Source_plz_Public_MyActor_h_10_INCLASS_NO_PURE_DECLS \
+	FID_GitStudy_Unreal8th_CH2_Assignment5_plz_Source_plz_Public_MyActor_h_10_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -48,7 +48,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> PLZ_API UClass* StaticClass<class AMyActor>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_UnrealEngine_plz_Source_plz_Public_MyActor_h
+#define CURRENT_FILE_ID FID_GitStudy_Unreal8th_CH2_Assignment5_plz_Source_plz_Public_MyActor_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

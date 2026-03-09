@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("plzModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0e77935dfd58e0dce8410b03cb93d313f421672c")]
 [assembly: System.Reflection.AssemblyProductAttribute("plzModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("plzModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

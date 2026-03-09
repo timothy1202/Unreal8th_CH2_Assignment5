@@ -2,13 +2,14 @@
 
 AMyActor::AMyActor()
 {
-    PrimaryActorTick.bCanEverTick = true; // 중요: Tick이 작동하려면 이 설정이 필요합니다!
+    PrimaryActorTick.bCanEverTick = true; 
 }
 
 void AMyActor::BeginPlay()
 {
     Super::BeginPlay();
-    PreviousLocation = GetActorLocation(); // 시작 위치 저장
+    PreviousLocation = GetActorLocation(); 
+    UE_LOG(LogTemp, Warning, TEXT("Start Game!"));
 }
 
 void AMyActor::Tick(float DeltaTime)
@@ -28,31 +29,27 @@ void AMyActor::Tick(float DeltaTime)
 
             FVector EndPos = GetActorLocation();
 
-            // 1. 매 이동 시 거리 계산
             float MoveDistance = FVector::Dist(StartPos, EndPos);
             TotalDistance += MoveDistance;
+   
+            UE_LOG(LogTemp, Warning, TEXT("EndPos: %s"), *EndPos.ToString());
 
-            // 2. 이벤트 발생 여부 확인
             bool bIsEvent = TriggerEvent();
             if (bIsEvent)
             {
                 EventCount++;
             }
 
-            // 3. 매 단계마다 로그 출력 (누적 거리와 이벤트 여부)
-            FString StepMsg = FString::Printf(TEXT("Step: %d | Dist: %.2f | Event: %s"),
-                MoveCount + 1, MoveDistance, bIsEvent ? TEXT("Yes") : TEXT("No"));
+            FString StepMsg = FString::Printf(TEXT("Step: %d | Dist: %.2f | Event: %s"),MoveCount + 1, MoveDistance, bIsEvent ? TEXT("Yes") : TEXT("No"));
             GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Yellow, StepMsg);
 
             MoveCount++;
             Timer = 0.0f;
 
-            // 4. 10회 완료 시 최종 리포트
             if (MoveCount >= 10)
             {
                 bIsFinished = true;
-                FString FinalReport = FString::Printf(TEXT("--- 최종 리포트 --- 총 거리: %.2f | 총 이벤트: %d"),
-                    TotalDistance, EventCount);
+                FString FinalReport = FString::Printf(TEXT("--- 최종 리포트 --- 총 거리: %.2f | 총 이벤트: %d"),TotalDistance, EventCount);
                 GEngine->AddOnScreenDebugMessage(-1, 20.0f, FColor::Magenta, FinalReport);
             }
         }

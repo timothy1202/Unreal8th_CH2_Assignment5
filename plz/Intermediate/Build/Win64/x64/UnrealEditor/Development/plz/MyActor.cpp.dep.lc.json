@@ -1,13 +1,13 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\unrealengine\\plz\\source\\plz\\private\\myactor.cpp",
+        "Source": "c:\\gitstudy\\unreal8th_ch2_assignment5\\plz\\source\\plz\\private\\myactor.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\unrealengine\\plz\\intermediate\\build\\win64\\x64\\plzeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "PCH": "c:\\gitstudy\\unreal8th_ch2_assignment5\\plz\\intermediate\\build\\win64\\x64\\plzeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
         "Includes": [
-            "c:\\unrealengine\\plz\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\plz\\definitions.plz.h",
-            "c:\\unrealengine\\plz\\source\\plz\\public\\myactor.h",
-            "c:\\unrealengine\\plz\\intermediate\\build\\win64\\unrealeditor\\inc\\plz\\uht\\myactor.generated.h"
+            "c:\\gitstudy\\unreal8th_ch2_assignment5\\plz\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\plz\\definitions.plz.h",
+            "c:\\gitstudy\\unreal8th_ch2_assignment5\\plz\\source\\plz\\public\\myactor.h",
+            "c:\\gitstudy\\unreal8th_ch2_assignment5\\plz\\intermediate\\build\\win64\\unrealeditor\\inc\\plz\\uht\\myactor.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

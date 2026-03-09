@@ -45,10 +45,16 @@
     <ClCompile Include="..\..\Source\plz\Private\MyActor.cpp">
       <Filter>Source\plz\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\plz\Private\Test.cpp">
+      <Filter>Source\plz\Private</Filter>
+    </ClCompile>
     <Filter Include="Source\plz\Public">
       <UniqueIdentifier>{E28CF918-C057-330C-A637-B869525E66D7}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\plz\Public\MyActor.h">
+      <Filter>Source\plz\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\plz\Public\Test.h">
       <Filter>Source\plz\Public</Filter>
     </ClCompile>
   </ItemGroup>

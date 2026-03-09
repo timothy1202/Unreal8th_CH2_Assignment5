@@ -1,12 +1,12 @@
-"C:\UnrealEngine\plz\Intermediate\Build\Win64\UnrealEditor\Inc\plz\UHT\plz.init.gen.cpp"
-/FI"C:\UnrealEngine\plz\Intermediate\Build\Win64\x64\plzEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
-/FI"C:\UnrealEngine\plz\Intermediate\Build\Win64\x64\UnrealEditor\Development\plz\Definitions.plz.h"
-/Yu"C:\UnrealEngine\plz\Intermediate\Build\Win64\x64\plzEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
-/Fp"C:\UnrealEngine\plz\Intermediate\Build\Win64\x64\plzEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.pch"
-/Fo"C:\UnrealEngine\plz\Intermediate\Build\Win64\x64\UnrealEditor\Development\plz\plz.init.gen.cpp.obj"
-/experimental:log "C:\UnrealEngine\plz\Intermediate\Build\Win64\x64\UnrealEditor\Development\plz\plz.init.gen.cpp.sarif"
-/sourceDependencies "C:\UnrealEngine\plz\Intermediate\Build\Win64\x64\UnrealEditor\Development\plz\plz.init.gen.cpp.dep.json"
-@"C:\UnrealEngine\plz\Intermediate\Build\Win64\x64\UnrealEditor\Development\plz\plz.Shared.rsp"
+"C:\GitStudy\Unreal8th_CH2_Assignment5\plz\Intermediate\Build\Win64\UnrealEditor\Inc\plz\UHT\plz.init.gen.cpp"
+/FI"C:\GitStudy\Unreal8th_CH2_Assignment5\plz\Intermediate\Build\Win64\x64\plzEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
+/FI"C:\GitStudy\Unreal8th_CH2_Assignment5\plz\Intermediate\Build\Win64\x64\UnrealEditor\Development\plz\Definitions.plz.h"
+/Yu"C:\GitStudy\Unreal8th_CH2_Assignment5\plz\Intermediate\Build\Win64\x64\plzEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
+/Fp"C:\GitStudy\Unreal8th_CH2_Assignment5\plz\Intermediate\Build\Win64\x64\plzEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.pch"
+/Fo"C:\GitStudy\Unreal8th_CH2_Assignment5\plz\Intermediate\Build\Win64\x64\UnrealEditor\Development\plz\plz.init.gen.cpp.obj"
+/experimental:log "C:\GitStudy\Unreal8th_CH2_Assignment5\plz\Intermediate\Build\Win64\x64\UnrealEditor\Development\plz\plz.init.gen.cpp.sarif"
+/sourceDependencies "C:\GitStudy\Unreal8th_CH2_Assignment5\plz\Intermediate\Build\Win64\x64\UnrealEditor\Development\plz\plz.init.gen.cpp.dep.json"
+@"C:\GitStudy\Unreal8th_CH2_Assignment5\plz\Intermediate\Build\Win64\x64\UnrealEditor\Development\plz\plz.Shared.rsp"
 /d2ssa-cfg-question-
 /Zc:inline
 /nologo
