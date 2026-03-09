@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "plz",
+			"Path": "..\\Source\\plz.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "plzEditor",
+			"Path": "..\\Source\\plzEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

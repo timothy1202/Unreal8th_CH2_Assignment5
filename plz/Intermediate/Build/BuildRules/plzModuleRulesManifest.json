@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\UnrealEngine\\plz\\Source\\plz\\plz.Build.cs",
+		"C:\\UnrealEngine\\plz\\Source\\plz.Target.cs",
+		"C:\\UnrealEngine\\plz\\Source\\plzEditor.Target.cs"
+	],
+	"EngineVersion": "5.5.4"
+}

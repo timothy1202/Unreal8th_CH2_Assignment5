@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\unrealengine\\plz\\source\\plz\\private\\myactor.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\unrealengine\\plz\\intermediate\\build\\win64\\x64\\plzeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\unrealengine\\plz\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\plz\\definitions.plz.h",
+            "c:\\unrealengine\\plz\\source\\plz\\public\\myactor.h",
+            "c:\\unrealengine\\plz\\intermediate\\build\\win64\\unrealeditor\\inc\\plz\\uht\\myactor.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

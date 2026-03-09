@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-plz.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\UnrealEngine\plz\Intermediate\Build\Win64\x64\plzEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"C:\UnrealEngine\plz\Intermediate\Build\Win64\x64\UnrealEditor\Development\plz\plz.cpp.obj"
+"C:\UnrealEngine\plz\Intermediate\Build\Win64\x64\UnrealEditor\Development\plz\PerModuleInline.gen.cpp.obj"
+"C:\UnrealEngine\plz\Intermediate\Build\Win64\x64\UnrealEditor\Development\plz\Default.rc2.res"
+/OUT:"C:\UnrealEngine\plz\Intermediate\Build\Win64\x64\UnrealEditor\Development\plz\UnrealEditor-plz.lib"
